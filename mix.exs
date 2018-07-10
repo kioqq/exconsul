@@ -3,8 +3,8 @@ defmodule Consul.Mixfile do
 
   def project do
     [
-      app: :consul,
-      version: "1.1.0",
+      app: :exconsul,
+      version: "1.0.0",
       elixir: "~> 1.6",
       deps: deps(),
       package: package(),
@@ -29,7 +29,7 @@ defmodule Consul.Mixfile do
   defp deps do
     [
       {:exjsx, "~> 4.0"},
-      {:httpoison, "~> 1.2"},
+      {:httpoison, "~> 1.1"},
       {:ex_doc, "~> 0.14", only: :dev}
     ]
   end
