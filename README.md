@@ -1,7 +1,11 @@
 # Consul
 
 An Elixir client for Consul's HTTP API
-Fork https://github.com/undeadlabs/consul-ex
+
+# Forked!
+
+This repository is fork https://github.com/undeadlabs/consul-ex  
+Thx Jamie Winsor!
 
 ## Requirements
 
@@ -32,4 +36,3 @@ Run `mix docs` and open `doc/index.html` to view the documentation.
 ## Authors
 
 Jamie Winsor (<jamie@undeadlabs.com>)
-Evgeniy Abramov (<i@kio.ninja>)
