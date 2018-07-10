@@ -22,7 +22,7 @@ end
 
 defp deps do
   [
-    {:exconsul, "~> 1.0.0"}
+    {:exconsul, "~> 1.0"}
   ]
 end
 ```
