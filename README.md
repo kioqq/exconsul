@@ -1,12 +1,11 @@
 # Consul
 
-[![Build Status](https://travis-ci.org/undeadlabs/consul-ex.png?branch=master)](https://travis-ci.org/undeadlabs/consul-ex)
-
 An Elixir client for Consul's HTTP API
+Fork https://github.com/undeadlabs/consul-ex
 
 ## Requirements
 
-* Elixir 1.0.0 or newer
+* Elixir 1.6.6 or newer
 
 ## Installation
 
@@ -14,12 +13,12 @@ Add Consul as a dependency in your `mix.exs` file
 
 ```elixir
 def application do
-  [applications: [:consul]]
+  [applications: [:exconsul]]
 end
 
 defp deps do
   [
-    {:consul, "~> 1.0.0"}
+    {:exconsul, "~> 1.0.0"}
   ]
 end
 ```
@@ -33,3 +32,4 @@ Run `mix docs` and open `doc/index.html` to view the documentation.
 ## Authors
 
 Jamie Winsor (<jamie@undeadlabs.com>)
+Evgeniy Abramov (<i@kio.ninja>)

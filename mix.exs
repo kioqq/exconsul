@@ -5,7 +5,7 @@ defmodule Consul.Mixfile do
     [
       app: :consul,
       version: "1.1.0",
-      elixir: "~> 1.4",
+      elixir: "~> 1.6",
       deps: deps(),
       package: package(),
       description: description()
@@ -42,7 +42,7 @@ defmodule Consul.Mixfile do
 
   defp package do
     %{licenses: ["MIT"],
-      maintainers: ["Jamie Winsor"],
-      links: %{"Github" => "https://github.com/undeadlabs/consul-ex"}}
+      maintainers: ["Jamie Winsor", "Evgeniy Abramov"],
+      links: %{"Github" => "https://github.com/kiopro/exconsul"}}
   end
 end
