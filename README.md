@@ -27,6 +27,12 @@ defp deps do
 end
 ```
 
+Add in config
+```
+config :consul,
+  host: "123.123.123.123" (your consul host),
+  port: 8500
+```
 Then run `mix deps.get` in your shell to fetch the dependencies.
 
 ## Docs
