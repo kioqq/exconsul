@@ -32,10 +32,10 @@ defmodule Consul.Request do
   #
 
   defp host do
-    Application.get_env(:consul, :host, "localhost")
+    Application.get_env(:exconsul, :host, "localhost")
   end
 
   defp port do
-    Application.get_env(:consul, :port, 8500)
+    Application.get_env(:exconsul, :port, 8500)
   end
 end

@@ -29,7 +29,7 @@ end
 
 Add in config
 ```elixir
-config :consul,
+config :exconsul,
   host: "123.123.123.123", # your consul host
   port: 8500
 ```
