@@ -9,7 +9,7 @@ Thx Jamie Winsor!
 
 ## Requirements
 
-* Elixir 1.6.6 or newer
+* Elixir 1.6 or newer
 
 ## Installation
 
